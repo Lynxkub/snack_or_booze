@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="radio"
+  >
+    <h2>
+      Add a new snack or drink to our menu!
+    </h2>
+    <div>
+      <form>
+        <div
+          class="radio"
+        >
+          <input
+            data-testid="snacks"
+            id="snacks"
+            name="menu"
+            type="radio"
+            value="snacks"
+          />
+          <label
+            for="snacks"
+          >
+            Snack
+          </label>
+          <input
+            data-testid="drinks"
+            id="drinks"
+            name="menu"
+            type="radio"
+            value="drinks"
+          />
+          <label
+            for="drinks"
+          >
+            Drink
+          </label>
+        </div>
+        <div>
+          <label
+            for="itemName"
+          >
+            Item Name
+          </label>
+          <input
+            class="input"
+            data-testid="itemName"
+            id="itemName"
+            name="itemName"
+            placeholder="Item Name"
+            type="text"
+            value=""
+          />
+        </div>
+        <div>
+          <label
+            for="description"
+          >
+            Description
+          </label>
+          <input
+            class="input"
+            data-testid="description"
+            id="description"
+            name="description"
+            placeholder="Description"
+            type="text"
+            value=""
+          />
+        </div>
+        <div>
+          <label
+            for="recipe"
+          >
+            Recipe
+          </label>
+          <input
+            class="input"
+            data-testid="recipe"
+            id="recipe"
+            name="recipe"
+            placeholder="Recipe"
+            type="text"
+            value=""
+          />
+        </div>
+        <div>
+          <label
+            for="serve"
+          >
+            Serving Instructions
+          </label>
+          <input
+            class="input"
+            data-testid="serve"
+            id="serve"
+            name="serve"
+            placeholder="Serving Instructions"
+            type="text"
+            value=""
+          />
+        </div>
+        <button>
+          Submit Item
+        </button>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;
